@@ -5,21 +5,21 @@ This subsection is dedicated to practicing some Pandas fundamentals. The dataset
 
 *Figure 1: Snippet of the dataset*
 
-The following tasks were attempted:
+### The following tasks were attempted:
 
-1. Add a column that includes the proportion of each birth count
-2. Extract a subset of the data with the top 10 most common names for each sex
-3. Aggregate the names by first letter and plot the frequency distribution for males and females separately
+##### 1. Add a column that includes the proportion of each birth count
+##### 2. Extract a subset of the data with the top 10 most common names for each sex
+##### 3. Aggregate the names by first letter and plot the frequency distribution for males and females separately
 
 The results of each of the above tasks are displayed below:
 
-1. Add a column that includes the proportion of each birth count
+##### 1. Add a column that includes the proportion of each birth count
 
 ![](results/augmented_prop.png)
 
 *Figure 2: Dataset with augmented proportion column*
 
-2. Extract a subset of the data with the top 10 most common names for each sex
+##### 2. Extract a subset of the data with the top 10 most common names for each sex
 
 ![](results/top_males.png)
 
@@ -29,7 +29,7 @@ The results of each of the above tasks are displayed below:
 
 *Figure 4: Top 10 most common names for females*
 
-3. Aggregate the names by first letter and plot the frequency distribution for males and females separately
+##### 3. Aggregate the names by first letter and plot the frequency distribution for males and females separately
 
 ![](results/first_letters_male.png)
 
