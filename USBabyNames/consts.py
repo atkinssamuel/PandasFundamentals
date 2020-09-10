@@ -4,3 +4,4 @@ class paths:
     pandas_dir = "PandasFundamentals/"
     baby_names_dir = pandas_dir + "USBabyNames/"
     results_dir = baby_names_dir + "results/"
+    images_dir = baby_names_dir + "images/"
