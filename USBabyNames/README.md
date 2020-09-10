@@ -11,7 +11,9 @@ This subsection is dedicated to practicing some Pandas fundamentals. The dataset
 ##### 2. Extract a subset of the data with the top 10 most common names for each sex
 ##### 3. Aggregate the names by first letter and plot the frequency distribution for males and females separately
 
-The results of each of the above tasks are displayed below:
+-------------------------
+
+## Results
 
 ##### 1. Add a column that includes the proportion of each birth count
 
