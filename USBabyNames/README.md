@@ -42,4 +42,4 @@ This subsection is dedicated to practicing some Pandas fundamentals. The dataset
 *Figure 6: First letter frequency distribution for females*
 
 
-A strong understanding of the ```.groupby, .apply, .loc[], .iloc[], .sort_values, and .plot``` functions was obtained through this project.
+A strong understanding of the ```.groupby```, ```.apply```, ```.loc[]```, ```.iloc[]```, ```.sort_values```, and ```.plot``` functions was obtained through this project.
