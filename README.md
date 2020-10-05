@@ -110,6 +110,23 @@ g = df.groupby(['sex'])
 g = g.apply(modifier)
 ```
 
+- Series.map - map values of Series according to input correspondence. 
+
+*.map lambda example:*
+```python
+df['income_category'] = df['annual_income'].map(lambda x: 1 if x>30000 else 0)
+```
+
+*.map specified function example:*
+```python
+def modifier(value):
+    if value > 3000:
+        return 1
+    else:
+        return 0
+df['income_category'] = df['annual_income'].map(modifier)
+```
+
 #### String Indexing:
 - string_column.str - allows us to access and modify the string contents of the string column
  
