@@ -60,6 +60,14 @@ column_names = customer_column_names
 return  pd.DataFrame(np_array, columns=column_names)
 ```
 
+#### Renaming Columns:
+- df.rename - provide a dictionary mapper to rename the columns of a dataframe
+
+*df.rename example:*
+```python
+salary_df = salary_df.rename(columns={"Q3": "country", "Q1": "age", "Q4": "educ", "Q5": "prof_exp", "Q10": "salary"})
+```
+
 #### Data Indexing:
 - df[:10], df.head(10) - selects the first 10 rows of the df
 - df.tail(10) - selects the last 10 elements of the df
@@ -126,6 +134,8 @@ def modifier(value):
         return 0
 df['income_category'] = df['annual_income'].map(modifier)
 ```
+
+- df.dropna - remove missing values from df
 
 #### String Indexing:
 - string_column.str - allows us to access and modify the string contents of the string column
