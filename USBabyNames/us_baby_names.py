@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from PandasFundamentals.USBabyNames.consts import *
+from global_consts import global_consts
 
 
 # Goals:
@@ -11,7 +12,7 @@ from PandasFundamentals.USBabyNames.consts import *
 def import_yob_dataset_pandas():
     # Each entry in the following dataset is a name, the sex of that name, and the number of children born in 2010
     # that were given that particular name
-    return pd.read_csv(paths.year_dataset, names=["name", "sex", "births"])
+    return pd.read_csv(global_consts.year_dataset, names=["name", "sex", "births"])
 
 
 # Adds a column that includes the proportion of each birth count
